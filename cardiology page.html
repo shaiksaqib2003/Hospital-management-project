@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cardiology</title>
+    </head>
+    <style>
+    * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+  align-self:center;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 10px 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  align-content: center;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+    </style>
+    <body>
+        <center><h1>CARDIOLOGY</h1></center>
+        <hr>
+        <div class="row">
+            <div class="column" >
+              <div class="card" >
+        <img src="https://thumbs.dreamstime.com/b/indian-doctor-mature-male-medical-standing-isolated-white-background-handsome-model-portrait-31871541.jpg"width="250px"height="277px"><br>
+        <label>1]    Dr. D . Srinivas Rao </label><br>
+        <label>PhD Cardiology </label><br>
+        <label>12 years experience</label><br>
+        <label>consultation fee - 500 rupees</label><br>
+        <a href="outpatient.html">BOOK NOW</a>
+              </div><br><br>
+            </div><br><br>
+        </div>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQha7zRXZZ3Qde2tqlyUXLVxFMTElIOKJthkg&usqp=CAU" alt="Cardiology" style= "height:260px"><br><br>
+        <label>2]    Dr. R.Ramana </label><br>
+        <label>PhD Cardiology </label><br>
+        <label>15 years experience</label><br>
+        <label>consultation fee - 650 rupees</label><br>
+        <a href="outpatient.html">BOOK NOW</a>
+                </div>
+                </div>
+                </div>
+    </body>
+</html>
