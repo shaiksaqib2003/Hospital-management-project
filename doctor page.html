@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doctors</title>
+    <style>
+  
+   * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHCBvyz2B399wshbhF3y2HNjB4hB9KZZ7w8Q&usqp=CAU);
+  background-size: cover;
+align-self: center;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 16.5%;
+  padding: 0 15px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 10px 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+    </style>
+    </head>
+    <body>
+        <center><h1>Doctor Consultation</h1></center>
+        <hr>
+        <br><br><br>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="https://icons.iconarchive.com/icons/medicalwp/medical/256/Cardiology-blue-icon.png" alt="Cardiology" style="width:80%"><br>
+              <a href="cardiology page.html">Cardiology</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="https://icon2.cleanpng.com/20180706/ipe/kisspng-n-of-one-inc-human-brain-brain-tumor-neurology-5b3f9576d75507.728192471530893686882.jpg" alt="Neurology" style="width:80%"><br>
+              <a href="neurology.html">Neurology</a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2dnPuti4PjlVfU6halGw_nDlW_fOtpX-5w&usqp=CAU" alt="Orthopedic" style="width:80%"><br>
+              <a href="orthopedic.html">Orthopedic</a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="card">
+                <img src="data:image/png;base64,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" alt="Gynecology" style="width:76%">
+                <a href="gynecology.html">Gynecology</a>
+              </div>
+              </div>
+              <div class="column">
+              <div class="card">
+                <img src="https://cdn4.iconfinder.com/data/icons/medical-hospital-blue-line/64/345_gastroenterology-stomach-pain-anatomy-512.png" alt="Gastrology" style="width:80%"><br>
+                <a href="Gastroenterology.html">Gastroenterology</a>
+              </div>
+              </div>
+              <div class="column">
+              <div class="card">
+                <img src="https://cdn0.iconfinder.com/data/icons/health-care-and-medical/256/Medical__Health_care-98-512.png" alt="Pulmonolgy" style="width:80%"><br>
+                <a href="pulmonolgy.html">Pulmonolgy</a>
+              </div>  
+              </div>
+          </div>
+    </body>
+</html>

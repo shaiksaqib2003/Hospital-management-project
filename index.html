@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>HOSPITALS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      font-family: "Lato", sans-serif;
+      background-image: url(https://bangalore.apollohospitals.com/wp-content/uploads/2021/08/Sheshadripuram-Banglore.jpg);
+      background-size: cover;  
+    }
+    h1{
+        font-family: lucida;
+        color: black;
+    }
+    h3{
+        font-family: lucida;
+        color: black;
+    }
+    span{
+        font-family: lucida;
+        color: black;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-image: url(https://tse1.mm.bing.net/th?id=OIP.p7D1vjf3eMCupdDuPnhXXgHaC9&pid=Api&P=0&h=180);
+      background-size: cover;
+      background-position: center;
+      opacity: 1.3;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      text-align:center;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color:darkblue;
+      display: block;
+      transition: 0.3s;
+    
+    }
+    
+    .sidenav a:hover{
+      color: blue;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .fa {
+  padding: 20px;
+text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 20px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+</style>
+  
+     <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="ABOUT(APOLLO).html">About</a>
+      <a href="SERVICE(APOLLO).html">Services</a>
+          <a href="staff page.html">Staff</a>
+      <a href="doctor page.html">Doctor</a>
+    </div>
+    <center><h1><strong>APOLLO HOSPITALS</strong></h1></center>
+    <center><h3><strong>Healthcare company</strong></h3></center>
+    <div style="display:flex;flex-direction: column;align-items: first baseline;">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    
+    </script> 
+    <div class="column">
+      <ul>
+        <li> 
+        <a href="https://www.facebook.com/ApolloHospitalsVizag" class="fa fa-facebook"> </a> 
+        </li>
+        <li>
+        <a href="https://twitter.com/HospitalsApollo?s=20" class="fa fa-twitter"> </a>
+        </li>
+        
+        <li>
+        <a href="https://www.askapollo.com/book-health-check?utm_source=websitebanner&utm_medium=digital&utm_campaign=mothers-day-health-check-apollohospitals" class="fa fa-google"> </a>
+        </li>
+        </ul>
+    </div>     
+   </body>
+      
+</html>

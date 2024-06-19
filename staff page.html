@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>staff</title>
+    <style>
+   
+   * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background-image: url(data:image/jpeg;base64,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);
+ background-size: cover;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 10px 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+    </style>
+    </head>
+    <body>
+        <center><h1>STAFF</h1></center>
+        <hr>
+        <br><br><br>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="https://thumbs.dreamstime.com/b/indian-doctor-mature-male-medical-standing-isolated-white-background-handsome-model-portrait-31871541.jpg" alt="Cardiology"width="250px"height="277px" ><br>
+              <label>Dr. D . Srinivas Rao </label><br>
+              <label>PhD Cardiology </label><br>
+              <label>12 years experience</label><br>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQha7zRXZZ3Qde2tqlyUXLVxFMTElIOKJthkg&usqp=CAU" alt="Cardiology" style= "height:260px"><br><br>
+              <label>Dr. R.Ramana </label><br>
+              <label>PhD Cardiology </label><br>
+              <label>15 years experience</label><br>
+            </div>
+            </div>
+            <div class="column">
+            <div class="card">
+                <img src="https://t4.ftcdn.net/jpg/03/05/41/27/360_F_305412791_XRNiWaFCREjLLpSQfj0e736foBoYXXYv.jpg"alt="Neurology"width="250px"height="277px"><br>
+                <label>  Dr. L. Ramesh </label><br>
+                <label>PhD Neurology </label><br>
+                <label>12 years experience</label><br>            </div>
+            </div>
+            <div class="column">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"width="250px"height="277px"><br>
+                <label> Dr.P Pradeep</label><br>
+                <label>PhD Neurology  </label><br>
+                <label>15 years experience</label><br>
+              </div><br><br><br>
+              </div>
+              <div class="column">
+              <div class="card">
+                <img src="https://thumbs.dreamstime.com/z/senior-doctor-laughing-to-camera-16276713.jpg"width="250px"height="277px"><br>
+                <label>Dr.R.RAMA KRISHNA </label><br>
+                <label>PhD Orthopedic </label><br>
+                <label>12 years experience</label><br>
+              </div>
+              </div>
+              <div class="column">
+              <div class="card">
+                <img src="https://img.freepik.com/free-photo/smiling-doctor-with-strethoscope-isolated-grey_651396-974.jpg?w=2000"width="250px"height="277px"><br>
+                <label>Dr. T. Vamshi</label><br>
+                <label>PhD Orthopedic </label><br>
+                <label>15 years experience</label><br>
+              </div>  
+              </div>
+              <div class="column">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0OHP7ea5zgDQQSC4m6L7cW4bEUFMooB_5w&usqp=CAU"width="250px"height="277px"><br>
+                    <label>Dr. M.USHA RANI </label><br>
+                    <label>PhD Gynecology</label><br>
+                    <label>12 years experience</label><br>
+                </div>  
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="https://www.liveabout.com/thmb/zNzhc9WxUE_lf6r3P0yuAfBaoV0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/doctor-with-stethoscope-in-hospital-642394515-5aa9a0b8a9d4f90037431454.jpg"width="250px"height="277px"><br>
+                        <label>Dr. G . Trinadh </label><br>
+                        <label>PhD Gynecology </label><br>
+                        <label>15 years experience</label><br>
+                    </div> <br><br><br> 
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                        <img src="https://img.freepik.com/free-photo/attractive-young-male-nutriologist-lab-coat-smiling-against-white-background_662251-2960.jpg"width="250px"height="277px"><br>
+                        <label>Dr. S . Raja naidu </label><br>
+                        <label>PhD Gastroenterology</label><br>
+                        <label>12 years experience</label><br>
+                        </div>  
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHmxkH-m8-DEKRwhPj2oXqKM05mix3w_jtgKhdKo8GYK8gKeK1UMJIGmIfC-ueLLBh0lY&usqp=CAU"width="250px"height="277px"><br>
+                        <label> Dr.K. Suresh </label><br>
+                        <label>PhD Gastroenterology </label><br>
+                        <label>15 years experience</label><br>
+                            </div>  
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <img src="https://st.depositphotos.com/1518767/4293/i/600/depositphotos_42930187-stock-photo-smiling-male-doctor-with-arms.jpg"width="250px"height="277px"><br>
+                                    <label>Dr. S . Arun swamy</label><br>
+                                    <label>PhD Pulmonolgy</label><br>
+                                    <label>12 years experience</label><br>
+                                </div>  
+                                </div>
+                                <div class="column">
+                                    <div class="card">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPa-VafO-h9JgC-gllPFod_zO2NL917tN5Kcff91hcKMOgSxBsNOV4aYIW1XwKMtC1Aqo&usqp=CAU"width="250px"height="277px"><br>
+                                        <label>Dr.A . Sai krishna </label><br>
+                                        <label>PhD Pulmonolgy </label><br>
+                                        <label>15 years experience</label><br>
+                                       
+                                    </div>  
+                                    </div>
+          </div>
+    </body>
+</html>
